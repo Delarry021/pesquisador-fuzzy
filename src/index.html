@@ -1,0 +1,27 @@
+<!--
+  Autor: Guilherme Delarry
+  Materia: Inteligencia Computacional 2
+
+  Obs: É necessário uso do node para rodar os scripts na máquina pessoal, por isso, hospedei o projeto em um servidor.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pesquisa Fuzzy</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Pesquisa <b>Fuzzy</b></h1>
+      <label for="input">No mínimo 3 letras</label>
+      <input id="input" type="text" placeholder="Digite uma música" />
+      <button id="botao">Procurar</button>
+      <div id="resultados"></div>
+    </div>
+    <noscript>É necessário o uso do javascript para rodar a aplicação!</noscript>
+    <script type="module" src="fuse.js"></script>
+  </body>
+</html>
