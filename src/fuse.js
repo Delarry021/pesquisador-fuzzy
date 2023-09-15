@@ -1,4 +1,4 @@
-import Fuse from "fuse.js"; //biblioteca do metodo fuzzy
+import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.esm.js'; //biblioteca do metodo fuzzy
 import { musicas } from './musicas.js'
 
 //opções de configuração da biblioteca
