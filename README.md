@@ -14,5 +14,7 @@
 
 ## 📚 Artigos uteis
 
+- [Biblioteca Fuse.js](https://www.fusejs.io/)
+
 ## ✒️Autor
 - Guilheme Delarry Rodrigues de Souza
